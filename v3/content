@@ -1,0 +1,17 @@
+CHECK(call)来自樊哲勇《cuda编程 基础与实践》。
+完成了SM级别并行。
+测试结果
+(myvenv) lycegg@LAPTOP-DHTL4J4Q:~/wsl_codes/final$ ./a.out /home/lycegg/wsl_codes/encoded/1664M_tehua /home/lycegg/wsl_codes/encoded/1664M_gpu_jiema 0 1 128
+sum_time=4515798
+(myvenv) lycegg@LAPTOP-DHTL4J4Q:~/wsl_codes/final$ ./a.out /home/lycegg/wsl_codes/encoded/1664M_tehua /home/lycegg/wsl_codes/encoded/1664M_gpu_jiema 0 2 128
+sum_time=1842764
+(myvenv) lycegg@LAPTOP-DHTL4J4Q:~/wsl_codes/final$ ./a.out /home/lycegg/wsl_codes/encoded/1664M_tehua /home/lycegg/wsl_codes/encoded/1664M_gpu_jiema 0 5 128
+sum_time=778528
+(myvenv) lycegg@LAPTOP-DHTL4J4Q:~/wsl_codes/final$ ./a.out /home/lycegg/wsl_codes/encoded/1664M_tehua /home/lycegg/wsl_codes/encoded/1664M_gpu_jiema 0 10 128
+sum_time=481559
+(myvenv) lycegg@LAPTOP-DHTL4J4Q:~/wsl_codes/final$ ./a.out /home/lycegg/wsl_codes/encoded/1664M_tehua /home/lycegg/wsl_codes/encoded/1664M_gpu_jiema 0 20 128
+sum_time=256734
+(myvenv) lycegg@LAPTOP-DHTL4J4Q:~/wsl_codes/final$ ./a.out /home/lycegg/wsl_codes/encoded/1664M_tehua /home/lycegg/wsl_codes/encoded/1664M_gpu_jiema 0 1 128
+sum_time=4057118
+(myvenv) lycegg@LAPTOP-DHTL4J4Q:~/wsl_codes/final$ ./a.out /home/lycegg/wsl_codes/encoded/1664M_tehua /home/lycegg/wsl_codes/encoded/1664M_gpu_jiema 0 2 128
+sum_time=1843159
