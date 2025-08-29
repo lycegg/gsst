@@ -1,0 +1,1 @@
+比不过fsst12。不知道为什么30轮cudaMemcpyAsync会耗20毫秒，这不应该耗时为0吗。然后得知malloc不行，必须用cuda分配pinned内存才能真异步。
